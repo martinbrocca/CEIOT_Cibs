@@ -30,7 +30,7 @@ El propósito de este proyecto es la construcción de un prototipo que incluya l
 ![DiagramaDeBloques](../img/../../img/Fig2.png) <br>
 
 Para el desarrollo del proyecto, los sensores y actuadores fueron desarrollados in-house, mediante el uso de dispositivos ESP32, ESP82866 y sensores capacitivos para humedad de suelo, y sensores DHT22 para temperatura y humedad.
-Para la aplicación, se decidió el uso de [ThingsBoard]https://thingsboard.io/ commuinity edition. 
+Para la aplicación, se decidió el uso de [ThingsBoard](https://thingsboard.io/) commuinity edition. 
 El fundamento de esta selección, es no entregar una aplicación sin soporte futuro al cliente.
 La instación final del proyecto es en una casa de retiro, ubicada en el estado de Carolina del Norte, Estados Unidos de America. Dicha propiedad cuenta con una superficie de aproximadamente 50 acres, en una zona rural. 
 ## Resolución
@@ -51,8 +51,8 @@ La instación final del proyecto es en una casa de retiro, ubicada en el estado 
 
 
 ### 2 Weaponization:
-    Análisis de la aplicación seleccionada: ThingsBoard en foros de seguridad (por ejemplo: https://www.exploit-db.com/ghdb/5831)
-    Análisis de vulnerabilidades en sistema operativo Raspbian (https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=raspberry+pi)
+    Análisis de la aplicación seleccionada: ThingsBoard en foros de seguridad: https://www.exploit-db.com/ghdb/5831
+    Análisis de vulnerabilidades en sistema operativo Raspbian: https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=raspberry+pi
     Análisis de terreno para identificar potenciales lugares desde donde haya linea de vista con la solución (ruta, caminos secundarios)
     En base a los resultados del exámen del buzón físico, investigar si la conexión a internet es por proveedor directo mediante enlance punto a punto, satelite o celular.
     Creación de un perfil falso en LinkedIn con intereses afines a los encontrados en el correo fisico.
