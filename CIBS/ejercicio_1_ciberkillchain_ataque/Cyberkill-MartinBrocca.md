@@ -77,6 +77,7 @@ La instación final del proyecto es en una casa de retiro, ubicada en el estado 
 
 ### 7 Actions on Objectives
     Intentar ganar acceso a otros sistemas de la propiedad, como circuitos de camaras o las computadoras de trabajo.
-    Proceder a extraer toda la informacion capturada
+    Proceder a extraer toda la informacion capturada.
+    Cambios en la configuración de la aplicación, para perjudicar el fin del proyecto (arruinar cosechas/plantas afectar equipos por encendidos prolongados, etc)
 
 
