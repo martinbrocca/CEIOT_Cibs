@@ -31,7 +31,7 @@ El propósito de este proyecto es la construcción de un prototipo que incluya l
 
 Para el desarrollo del proyecto, los sensores y actuadores fueron desarrollados in-house, mediante el uso de dispositivos ESP32, ESP82866 y sensores capacitivos para humedad de suelo, y sensores DHT22 para temperatura y humedad.
 Para la aplicación, se decidió el uso de [ThingsBoard](https://thingsboard.io/) commuinity edition. 
-El fundamento de esta selección, es no entregar una aplicación sin soporte futuro al cliente.
+El fundamento de esta selección, es no entregar una aplicación sin soporte futuro al cliente. <br>
 La instación final del proyecto es en una casa de retiro, ubicada en el estado de Carolina del Norte, Estados Unidos de America. Dicha propiedad cuenta con una superficie de aproximadamente 50 acres, en una zona rural. 
 ## Resolución
 
