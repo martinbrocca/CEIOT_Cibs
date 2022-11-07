@@ -27,8 +27,9 @@ El propósito de este proyecto es la construcción de un prototipo que incluya l
     - Sistema de control de temperatura ambiente
     - Una aplicación open-source que controle en base a los valores obtenidos por los sensores, el riego y la temperatura del invernadero.  <br>
   
-![DiagramaDeBloques](../img/../../img/Fig2.png)
-Para el desarrollo del proyecto, los sensores y actuadores fueron desarrollados in-house, mediante el uso de dispositivos ESP32, ESP82866 y Sensores capacitivos para humedad de suelo, y sensores DHT22 para temperatura y humedad.
+![DiagramaDeBloques](../img/../../img/Fig2.png) <br>
+
+Para el desarrollo del proyecto, los sensores y actuadores fueron desarrollados in-house, mediante el uso de dispositivos ESP32, ESP82866 y sensores capacitivos para humedad de suelo, y sensores DHT22 para temperatura y humedad.
 Para la aplicación, se decidió el uso de [ThingsBoard]https://thingsboard.io/ commuinity edition. 
 
 ## Resolución
