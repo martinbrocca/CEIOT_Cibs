@@ -37,7 +37,7 @@ La instación final del proyecto es en una casa de retiro, ubicada en el estado 
 
 ### 1 Reconnaissance:
     La solución implica un perfil reducido de ataque fisico, al estar aislada en una zona de bosques, sin vecinos inmediatos ni infrastructura de conección disponible en las inmediaciones (torres de antenas o postes, baja disponibilidad de internet: solo hay disponiblidad de internet satelital o celular).
-    [//] <> La infrastructura del proyecto cuenta con un servidor instalado en una Raspberry PI, corriendo sistema operativo Raspbian, donde corre la aplicacion Thingsboard. 
+    <!-- La infrastructura del proyecto cuenta con un servidor instalado en una Raspberry PI, corriendo sistema operativo Raspbian, donde corre la aplicacion Thingsboard. -->
     El proyecto en este momento solo cuenta con un servidor de HTTP (no seguro), y los dispositivos se conectan a la aplicacion mediante Tokens configurados de manera estatica en el codigo.
     El acceso desde internet se proveerá mediante apertura en el firewall del proveedor de internet al dispositivo.
     El cliente presenta un perfil muy bajo de participación en redes sociales. No tiene perfil de Facebook, Twitter, solamente posee una cuenta de poca actividad en LinkedIn.
