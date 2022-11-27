@@ -37,7 +37,7 @@ La instación final del proyecto es en una casa de retiro, ubicada en el estado 
 
 ### 1 Reconnaissance:
     La solución implica un perfil reducido de ataque fisico, al estar aislada en una zona de bosques, sin vecinos inmediatos ni infrastructura de conección disponible en las inmediaciones (torres de antenas o postes, baja disponibilidad de internet: solo hay disponiblidad de internet satelital o celular).
-    La inspeccion visual del area revela una  Raspberry PI en la zona del invernadero.
+    La inspeccion visual del area revela una  Raspberry PI en la zona del invernadero, por ello el sistema operativo inferido sera de la familia de Linux (Raspbian, Ubuntu, etc)
     El cliente presenta un perfil muy bajo de participación en redes sociales. No tiene perfil de Facebook, Twitter, solamente posee una cuenta de poca actividad en LinkedIn.
     El cliente proviene de una empresa con alta cultura de ciberseguridad, por lo que no sera facil engañarlo con tecnicas de Phishing. 
     La propiedad cuenta con un buzón de correspondencia en la entrada, sin vigilancia y a una distancia segura como para poder inspeccionar el contenido en busca de informacion sobre pagos a proveedores de internet, u otros patrones de conducta. 
