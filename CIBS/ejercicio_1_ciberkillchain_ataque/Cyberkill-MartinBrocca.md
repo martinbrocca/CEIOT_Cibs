@@ -35,20 +35,17 @@ El fundamento de esta selección, es no entregar una aplicación sin soporte fut
 La instación final del proyecto es en una casa de retiro, ubicada en el estado de Carolina del Norte, Estados Unidos de America. Dicha propiedad cuenta con una superficie de aproximadamente 50 acres, en una zona rural. 
 ## Resolución
 
-### 1 Reconnaissance:
+## 1 Reconnaissance:
     La solución implica un perfil reducido de ataque fisico, al estar aislada en una zona de bosques, sin vecinos inmediatos ni infrastructura de conección disponible en las inmediaciones (torres de antenas o postes, baja disponibilidad de internet: solo hay disponiblidad de internet satelital o celular).
     La inspeccion visual del area revela una  Raspberry PI en la zona del invernadero, por ello el sistema operativo inferido sera de la familia de Linux (Raspbian, Ubuntu, etc)
     El cliente presenta un perfil muy bajo de participación en redes sociales. No tiene perfil de Facebook, Twitter, solamente posee una cuenta de poca actividad en LinkedIn.
     El cliente proviene de una empresa con alta cultura de ciberseguridad, por lo que no sera facil engañarlo con tecnicas de Phishing. 
     La propiedad cuenta con un buzón de correspondencia en la entrada, sin vigilancia y a una distancia segura como para poder inspeccionar el contenido en busca de informacion sobre pagos a proveedores de internet, u otros patrones de conducta. 
-    
-
-    Potenciales herramientas:
-        IP Scanners.
-        Port Scanners.
+    Evaluar utilizar herramienetas como IP Scanners o Port Scanners para descubrir la red empleada en la propiedad y los dispositivos conectados
 
 
-### 2 Weaponization:
+
+## 2 Weaponization:
     Análisis de la aplicación seleccionada: ThingsBoard en foros de seguridad: https://www.exploit-db.com/ghdb/5831
     Análisis de vulnerabilidades en sistema operativo Raspbian: https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=raspberry+pi
     Análisis de terreno para identificar potenciales lugares desde donde haya linea de vista con la solución (ruta, caminos secundarios)
@@ -56,25 +53,25 @@ La instación final del proyecto es en una casa de retiro, ubicada en el estado 
     Creación de un perfil falso en LinkedIn con intereses afines a los encontrados en el correo fisico.
     El escaneo de puertos revela un servidor de HTTP (no seguro), y dispositivos que se conectan a la aplicacion mediante tokens estaticos.
     
-### 3 Delivery:
+## 3 Delivery:
     Envio de una memoria SD por correo fisico con codigo autoejecutable.
     Solicitud de conexión en LinkedIn, envio de mensajes directos con contenidos de interes.
     Uso de herramientas tipo *metasploit* para encontrar vulnerabilidades.
 
-### 4 Exploitation:
+## 4 Exploitation:
     En caso de exito de uso de la memoria SD, o acceso a algun link compartido en LinkedIn:
         Explotar vulnerabilidades del sistema operativo para ganar control o credenciales elevadas
         Explotar vulnerabilidades de la aplicacion (busqueda de APIs abiertas, SQL Injection, o XSS)
 
-### 5 Installation:
-    Instalacion de una consola web o un servicio que permita una puerta trasera de acceso al sistema.
+## 5 Installation:
+    Instalacion de una consola web, un servicio que permita una puerta trasera de acceso al sistema o un sistema que replique contenido descubierto a sitio externo.
     
 
-### 6 Command and Control
-    Asegurarse que el sistema infectado permanezca sin ser detectado, de forma tal que permita el egreso seguro de los datos, el movimiento lateral, o el control de la plataforma.
+## 6 Command and Control
+    Asegurarse que el sistema infectado permanezca sin ser detectado.
 
 
-### 7 Actions on Objectives
+## 7 Actions on Objectives
     Intentar ganar acceso a otros sistemas de la propiedad, como circuitos de camaras o las computadoras de trabajo.
     Proceder a extraer toda la informacion capturada.
     Cambios en la configuración de la aplicación, para perjudicar el fin del proyecto (arruinar cosechas/plantas afectar equipos por encendidos prolongados, etc)
