@@ -58,7 +58,7 @@ La instación final del proyecto es en una casa de retiro, ubicada en el estado 
 
 
 ### 4 Exploitation:<br>
-- Reemplazo fisico de la memoria SD de la Raspeberry PI<br>
+- Reemplazo fisico de la memoria SD de la Raspeberry PI con una copia adulterada.<br>
 
 ### 5 Installation:<br>
 - Instalacion de una consola web, un servicio que permita una puerta trasera de acceso al sistema o un sistema que replique contenido descubierto a sitio externo.
