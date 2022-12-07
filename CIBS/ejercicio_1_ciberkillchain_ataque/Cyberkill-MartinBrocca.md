@@ -54,9 +54,8 @@ La instación final del proyecto es en una casa de retiro, ubicada en el estado 
 - El escaneo de puertos revela un servidor de HTTP (no seguro), y dispositivos que se conectan a la aplicacion mediante tokens estaticos.<br>
     
 ### 3 Delivery:<br>
-- Envio de una memoria SD por correo fisico con codigo autoejecutable.<br>
-- Solicitud de conexión en LinkedIn, envio de mensajes directos con contenidos de interes.<br>
-- Uso de herramientas tipo *metasploit* para encontrar vulnerabilidades.<br>
+- Incursion en la propiedad, y copia de la memoria de la Raspberry PI.
+
 
 ### 4 Exploitation:<br>
 - Reemplazo fisico de la memoria SD de la Raspeberry PI<br>
