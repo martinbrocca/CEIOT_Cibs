@@ -59,9 +59,7 @@ La instación final del proyecto es en una casa de retiro, ubicada en el estado 
 - Uso de herramientas tipo *metasploit* para encontrar vulnerabilidades.<br>
 
 ### 4 Exploitation:<br>
-- En caso de exito de uso de la memoria SD, o acceso a algun link compartido en LinkedIn:<br>
-       - Explotar vulnerabilidades del sistema operativo para ganar control o credenciales elevadas<br>
-       - Explotar vulnerabilidades de la aplicacion (busqueda de APIs abiertas, SQL Injection, o XSS)<br>
+- Reemplazo fisico de la memoria SD de la Raspeberry PI<br>
 
 ### 5 Installation:<br>
 - Instalacion de una consola web, un servicio que permita una puerta trasera de acceso al sistema o un sistema que replique contenido descubierto a sitio externo.
