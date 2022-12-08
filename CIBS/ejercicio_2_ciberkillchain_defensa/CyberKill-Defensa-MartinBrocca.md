@@ -60,6 +60,8 @@ La instación final del proyecto es en una casa de retiro, ubicada en el estado 
 - Conforme a lo aprendido y entrenado (durante la vida laboral en una empresa de alta conciencia en seguridad), no abrir correos fisico o electrónico sospechosos. En el caso de abrir un correo electrónico, revisar links y descartar de ser posible.
 - No incluir datos personales en las redes sociales que pudieran dar detalles de referencias o ubicacion en publicaciones o perfiles, por ejemplo remover metadata de geolocalización en fotos.
 - Analizar incorporar un buzón fijo con llave maestra (buzones que los sistemas de correo pueden abrir con una llave, y el cliente con otra), o una PO Box (equivalente a una casilla de correo).
+- Instalar la Raspberry PI en una caja cerrada con alarma.
+- Instalar un sistema de CCTV/camaras.
 
 
 ### 4 Exploitation:
@@ -72,7 +74,7 @@ La instación final del proyecto es en una casa de retiro, ubicada en el estado 
 
 ### 5 Installation:
 - Alertar y/o bloquear cambios en directorios de instalacion frecuentes en el sistema operativo.
-- Asegurarse de validar hash o firmas de ejecutables.
+- Analisis de hashes de archivos de sistemas en una maquina externa a la Raspberry PI para .
 
     
 
@@ -85,9 +87,7 @@ La instación final del proyecto es en una casa de retiro, ubicada en el estado 
 
 
 ### 7 Actions on Objectives
-- Minizar retrasos en manejos de alertas.
-- Llevar a cabo una evaluación de daños con expertos. 
-- Evaluar instalar un capturador de trafico, para posibilitar el replay de actividades.
+- Realizar inspecciones visuales de la plantas y equipos del invernadero para asegurarse que la automatizacion no fue comprometida.
 
 
 
