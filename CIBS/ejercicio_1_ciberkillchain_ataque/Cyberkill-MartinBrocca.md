@@ -52,6 +52,7 @@ La instación final del proyecto es en una casa de retiro, ubicada en el estado 
 - En base a los resultados del exámen del buzón físico, investigar si la conexión a internet es por proveedor directo mediante enlance punto a punto, satelite o celular.<br>
 - Creación de un perfil falso en LinkedIn con intereses afines a los encontrados en el correo fisico.<br>
 - El escaneo de puertos revela un servidor de HTTP (no seguro), y dispositivos que se conectan a la aplicacion mediante tokens estaticos.<br>
+- Preparar un sistema para poder replicar y adulterar la memoria SD de la Raspberry PI in-situ, de manera de copiar, abrir e insertar las herramientas que permitiran el control del sistema.
     
 ### 3 Delivery:<br>
 - Incursion en la propiedad, y copia de la memoria de la Raspberry PI.
@@ -65,7 +66,7 @@ La instación final del proyecto es en una casa de retiro, ubicada en el estado 
     
 
 ### 6 Command and Control<br>
-- Asegurarse que el sistema infectado permanezca sin ser detectado.
+- Interactuar con el sistema mediante un shell remoto.
 
 
 ### 7 Actions on Objectives<br>
